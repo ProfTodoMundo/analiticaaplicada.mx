@@ -99,8 +99,9 @@ body {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
 }
 
 .card {
@@ -213,17 +214,32 @@ body {
 }
 .course-card {
     position: relative;
+    background: #ffffff;
+    border-radius: 28px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 640px;
+    border: 1px solid rgba(0,0,0,0.04);
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 45px rgba(0,0,0,0.12);
 }
 
 .course-badge {
     display: inline-block;
-    margin-bottom: 1rem;
-    padding: 0.35rem 0.75rem;
+    margin-bottom: 1.4rem;
+    padding: 0.5rem 1rem;
     border-radius: 999px;
-    background: #00e0b8;
-    color: #062033;
-    font-size: 0.8rem;
-    font-weight: 700;
+    background: linear-gradient(135deg, #00e0b8, #00c8ff);
+    color: #002244;
+    font-size: 0.85rem;
+    font-weight: 800;
 }
 
 .course-info {
@@ -238,23 +254,24 @@ body {
     display: flex;
     gap: 0.75rem;
     flex-wrap: wrap;
-    margin-top: 1.2rem;
+    margin-top: 1.5rem;
 }
 
 .btn-card {
     display: inline-block;
-    padding: 0.75rem 1rem;
+    padding: 0.85rem 1.35rem;
     border-radius: 999px;
-    background: #00e0b8;
-    color: #062033;
+    background: #12d8b0;
+    color: #002244;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 0.9rem;
-    transition: 0.3s ease;
+    transition: transform 0.25s ease, opacity 0.25s ease;
 }
 
 .btn-card:hover {
-    transform: translateY(-2px);
+    transform: scale(1.05);
+    opacity: 0.92;
 }
 
 .btn-card.secondary {
