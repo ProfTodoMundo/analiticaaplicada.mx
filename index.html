@@ -22,8 +22,12 @@
     </script>
 </head>
 
-<body>
 
+<body>
+<!-- Botón volver arriba -->
+<button id="btnTop" title="Volver arriba">
+    ↑
+</button>
     <header class="hero">
 
         <nav class="navbar">
@@ -478,6 +482,24 @@
     </section>
 
     <script src="script.js"></script>
+<script>
+const btnTop = document.getElementById("btnTop");
+
+window.addEventListener("scroll", () => {
+    if(window.scrollY > 400){
+        btnTop.classList.add("show");
+    } else {
+        btnTop.classList.remove("show");
+    }
+});
+
+btnTop.addEventListener("click", () => {
+    window.scrollTo({
+        top:0,
+        behavior:"smooth"
+    });
+});
+</script>
 
 </body>
 </html>
