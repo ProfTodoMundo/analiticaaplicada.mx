@@ -327,13 +327,13 @@ body {
 
     position:fixed;
 
-    bottom:40px;
+    bottom:35px;
 
-    right:35px;
+    right:25px;
 
-    width:55px;
+    width:58px;
 
-    height:55px;
+    height:58px;
     border:2px solid rgba(255,255,255,.15);
 
     backdrop-filter: blur(10px);
