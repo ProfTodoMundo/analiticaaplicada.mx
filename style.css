@@ -358,3 +358,30 @@ body {
 
     transform:scale(1.08);
 }
+/* ===== CORRECCIÓN FINAL SEMBLANZAS ===== */
+
+#semblanzas .cards {
+    align-items: flex-start !important;
+}
+
+#semblanzas .course-card {
+    min-height: 0 !important;
+    height: auto !important;
+    max-height: none !important;
+
+    padding: 1.6rem !important;
+
+    display: block !important;
+}
+
+#semblanzas .course-card h3 {
+    margin: 0 0 1rem 0 !important;
+}
+
+#semblanzas .course-card p {
+    margin: 0 0 1rem 0 !important;
+}
+
+#semblanzas .course-actions {
+    margin-top: 1rem !important;
+}
