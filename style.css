@@ -385,3 +385,17 @@ body {
 #semblanzas .course-actions {
     margin-top: 1rem !important;
 }
+/* ===== PREREGISTRO ===== */
+
+.preregistro-section{
+    text-align:center;
+}
+
+.preregistro-section h2{
+    margin-bottom:1rem;
+}
+
+.preregistro-section .section-text{
+    max-width:800px;
+    margin:0 auto 2rem auto;
+}
