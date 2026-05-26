@@ -22,50 +22,52 @@
     </script>
 </head>
 
-
 <body>
-<!-- Botón volver arriba -->
-<button id="btnTop" title="Volver arriba">
-    ↑
-</button>
-    <header class="hero">
 
-        <nav class="navbar">
-            <h1>Analítica Aplicada MX</h1>
+<button id="btnTop" title="Volver arriba">↑</button>
 
-            <div class="nav-links">
-                <a href="#cursos">Cursos</a>
-                <a href="#sobre-mi">Sobre mí</a>
-                <a href="#semblanzas">Semblanzas</a>
-                <a href="#sedes">Sedes</a>
-                <a href="#contacto">Contacto</a>
-            </div>
-        </nav>
+<header class="hero">
 
-        <div class="hero-content">
+    <nav class="navbar">
+        <h1>Analítica Aplicada MX</h1>
 
-            <h2>
-                Reconversión profesional mediante
-                análisis de datos y tecnología aplicada
-            </h2>
+        <div class="nav-links">
+            <a href="#cursos">Cursos</a>
+            <a href="#semblanzas">Semblanzas</a>
+            <a href="#publicaciones">Publicaciones</a>
+            <a href="#investigacion">Investigación</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#sedes">Sedes</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </nav>
 
-            <p>
-                Formación práctica en Python, R, Excel,
-                Power BI y herramientas tecnológicas modernas.
-            </p>
+    <div class="hero-content">
 
-            <div class="hero-buttons">
-                <a href="#cursos" class="btn-primary">Ver cursos</a>
-                <a href="#contacto" class="btn-secondary">Solicitar información</a>
-            </div>
+        <h2>
+            Reconversión profesional mediante
+            análisis de datos y tecnología aplicada
+        </h2>
 
+        <p>
+            Formación práctica en Python, R, Excel,
+            Power BI y herramientas tecnológicas modernas.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#cursos" class="btn-primary">Ver cursos</a>
+            <a href="#contacto" class="btn-secondary">Solicitar información</a>
         </div>
 
-    </header>
-    
+    </div>
+
+</header>
+
 <!-- PREREGISTRO -->
 <section id="preregistro" class="section preregistro-section">
+
     <div class="container">
+
         <span class="course-badge">Nuevo</span>
 
         <h2>Prerregistro de cursos</h2>
@@ -83,217 +85,238 @@
                Quiero preregistrarme
             </a>
         </div>
+
     </div>
+
 </section>
 
-    <section id="cursos" class="section">
+<!-- CURSOS -->
+<section id="cursos" class="section">
 
-        <h2>Cursos</h2>
+    <h2>Cursos</h2>
 
-        <div class="cards">
+    <div class="cards">
 
-            <div class="card course-card">
-                <span class="course-badge">Curso propedéutico</span>
-                <h3>Git y GitHub</h3>
-                <p>
-                    Introducción práctica al control de versiones,
-                    documentación técnica y construcción de portafolio
-                    profesional reproducible.
-                </p>
+        <div class="card course-card">
+            <span class="course-badge">Curso propedéutico</span>
 
-                <ul class="course-info">
-                    <li><strong>Duración:</strong> 6 horas</li>
-                    <li><strong>Nivel:</strong> Introductorio</li>
-                    <li><strong>Modalidad:</strong> Taller presencial</li>
-                    <li><strong>Costo:</strong> $900 MXN</li>
-                </ul>
+            <h3>Git y GitHub</h3>
 
-                <div class="course-actions">
-                    <a href="pdf/git_github_vf.pdf" class="btn-card" target="_blank">Ver programa</a>
-                    <a href="#contacto" class="btn-card secondary">Solicitar información</a>
-                </div>
+            <p>
+                Introducción práctica al control de versiones,
+                documentación técnica y construcción de portafolio
+                profesional reproducible.
+            </p>
+
+            <ul class="course-info">
+                <li><strong>Duración:</strong> 6 horas</li>
+                <li><strong>Nivel:</strong> Introductorio</li>
+                <li><strong>Modalidad:</strong> Taller presencial</li>
+                <li><strong>Costo:</strong> $900 MXN</li>
+            </ul>
+
+            <div class="course-actions">
+                <a href="pdf/git_github_vf.pdf" class="btn-card" target="_blank">Ver programa</a>
+                <a href="#contacto" class="btn-card secondary">Solicitar información</a>
             </div>
-
-            <div class="card course-card">
-                <span class="course-badge">Nivel básico</span>
-                <h3>Python Básico</h3>
-                <p>
-                    Introducción práctica a programación con Python
-                    orientada al análisis de datos, automatización
-                    y desarrollo de pensamiento computacional.
-                </p>
-
-                <ul class="course-info">
-                    <li><strong>Duración:</strong> 24 horas</li>
-                    <li><strong>Nivel:</strong> Básico</li>
-                    <li><strong>Modalidad:</strong> Presencial</li>
-                    <li><strong>Enfoque:</strong> Programación aplicada</li>
-                </ul>
-
-                <div class="course-actions">
-                    <a href="pdf/python_basico_vf.pdf" class="btn-card" target="_blank">Ver programa</a>
-                    <a href="#contacto" class="btn-card secondary">Solicitar información</a>
-                </div>
-            </div>
-
-            <div class="card course-card">
-                <span class="course-badge">Nivel básico</span>
-                <h3>R Básico</h3>
-                <p>
-                    Introducción al análisis estadístico y manejo
-                    de datos utilizando el lenguaje R y el entorno RStudio.
-                </p>
-
-                <ul class="course-info">
-                    <li><strong>Duración:</strong> 24 horas</li>
-                    <li><strong>Nivel:</strong> Básico</li>
-                    <li><strong>Modalidad:</strong> Presencial</li>
-                    <li><strong>Enfoque:</strong> Estadística aplicada</li>
-                </ul>
-
-                <div class="course-actions">
-                    <a href="pdf/r_basico_vf.pdf" class="btn-card" target="_blank">Ver programa</a>
-                    <a href="#contacto" class="btn-card secondary">Solicitar información</a>
-                </div>
-            </div>
-
-            <div class="card course-card">
-                <span class="course-badge">Nivel básico</span>
-                <h3>Excel Profesional</h3>
-                <p>
-                    Uso profesional de Excel para análisis,
-                    organización de datos y automatización
-                    de procesos técnicos y administrativos.
-                </p>
-
-                <ul class="course-info">
-                    <li><strong>Duración:</strong> 24 horas</li>
-                    <li><strong>Nivel:</strong> Básico</li>
-                    <li><strong>Modalidad:</strong> Presencial</li>
-                    <li><strong>Enfoque:</strong> Productividad y análisis</li>
-                </ul>
-
-                <div class="course-actions">
-                    <a href="pdf/excel_basico_vf.pdf" class="btn-card" target="_blank">Ver programa</a>
-                    <a href="#contacto" class="btn-card secondary">Solicitar información</a>
-                </div>
-            </div>
-
-            <div class="card course-card">
-                <span class="course-badge">Nivel intermedio</span>
-                <h3>Power BI</h3>
-                <p>
-                    Desarrollo de dashboards interactivos,
-                    visualización profesional de datos y
-                    generación de reportes dinámicos.
-                </p>
-
-                <ul class="course-info">
-                    <li><strong>Duración:</strong> 24 horas</li>
-                    <li><strong>Nivel:</strong> Intermedio</li>
-                    <li><strong>Modalidad:</strong> Presencial</li>
-                    <li><strong>Enfoque:</strong> Business Intelligence</li>
-                </ul>
-
-                <div class="course-actions">
-                    <a href="pdf/power_bi_vf.pdf" class="btn-card" target="_blank">Ver programa</a>
-                    <a href="#contacto" class="btn-card secondary">Solicitar información</a>
-                </div>
-            </div>
-
-            <div class="card course-card">
-                <span class="course-badge">Nivel intermedio</span>
-                <h3>R Aplicado</h3>
-                <p>
-                    Manipulación avanzada de datos, visualización
-                    estadística y análisis aplicado utilizando
-                    tidyverse y ggplot2.
-                </p>
-
-                <ul class="course-info">
-                    <li><strong>Duración:</strong> 24 horas</li>
-                    <li><strong>Nivel:</strong> Intermedio</li>
-                    <li><strong>Modalidad:</strong> Presencial</li>
-                    <li><strong>Enfoque:</strong> Estadística aplicada</li>
-                </ul>
-
-                <div class="course-actions">
-                    <a href="pdf/r_aplicado_vf.pdf" class="btn-card" target="_blank">Ver programa</a>
-                    <a href="#contacto" class="btn-card secondary">Solicitar información</a>
-                </div>
-            </div>
-
-            <div class="card course-card">
-                <span class="course-badge">Nivel intermedio</span>
-                <h3>Python Intermedio</h3>
-                <p>
-                    Manipulación de datos, análisis exploratorio,
-                    visualización científica y uso de bibliotecas
-                    modernas para ciencia de datos.
-                </p>
-
-                <ul class="course-info">
-                    <li><strong>Duración:</strong> 24 horas</li>
-                    <li><strong>Nivel:</strong> Intermedio</li>
-                    <li><strong>Modalidad:</strong> Presencial</li>
-                    <li><strong>Enfoque:</strong> Ciencia de datos</li>
-                </ul>
-
-                <div class="course-actions">
-                    <a href="pdf/python_intermedio_vf.pdf" class="btn-card" target="_blank">Ver programa</a>
-                    <a href="#contacto" class="btn-card secondary">Solicitar información</a>
-                </div>
-            </div>
-
-            <div class="card course-card">
-                <span class="course-badge">Nivel avanzado</span>
-                <h3>Análisis de Datos con Python</h3>
-                <p>
-                    Integración de datasets, limpieza de datos,
-                    análisis estadístico y visualización aplicada
-                    utilizando herramientas modernas del ecosistema Python.
-                </p>
-
-                <ul class="course-info">
-                    <li><strong>Duración:</strong> 24 horas</li>
-                    <li><strong>Nivel:</strong> Avanzado</li>
-                    <li><strong>Modalidad:</strong> Presencial</li>
-                    <li><strong>Enfoque:</strong> Analítica aplicada</li>
-                </ul>
-
-                <div class="course-actions">
-                    <a href="pdf/python_avanzado_vf.pdf" class="btn-card" target="_blank">Ver programa</a>
-                    <a href="#contacto" class="btn-card secondary">Solicitar información</a>
-                </div>
-            </div>
-
-            <div class="card course-card">
-                <span class="course-badge">Nivel avanzado</span>
-                <h3>Git y GitHub Avanzado</h3>
-                <p>
-                    Flujo profesional de trabajo con Git y GitHub,
-                    ramas, integración de cambios y resolución
-                    colaborativa de conflictos en proyectos técnicos.
-                </p>
-
-                <ul class="course-info">
-                    <li><strong>Duración:</strong> 12 horas</li>
-                    <li><strong>Nivel:</strong> Avanzado</li>
-                    <li><strong>Modalidad:</strong> Presencial</li>
-                    <li><strong>Enfoque:</strong> Flujo profesional</li>
-                </ul>
-
-                <div class="course-actions">
-                    <a href="pdf/git_github_avanzado_vf.pdf" class="btn-card" target="_blank">Ver programa</a>
-                    <a href="#contacto" class="btn-card secondary">Solicitar información</a>
-                </div>
-            </div>
-
         </div>
 
-    </section>
+        <div class="card course-card">
+            <span class="course-badge">Nivel básico</span>
 
+            <h3>Python Básico</h3>
 
+            <p>
+                Introducción práctica a programación con Python
+                orientada al análisis de datos, automatización
+                y desarrollo de pensamiento computacional.
+            </p>
+
+            <ul class="course-info">
+                <li><strong>Duración:</strong> 24 horas</li>
+                <li><strong>Nivel:</strong> Básico</li>
+                <li><strong>Modalidad:</strong> Presencial</li>
+                <li><strong>Enfoque:</strong> Programación aplicada</li>
+            </ul>
+
+            <div class="course-actions">
+                <a href="pdf/python_basico_vf.pdf" class="btn-card" target="_blank">Ver programa</a>
+                <a href="#contacto" class="btn-card secondary">Solicitar información</a>
+            </div>
+        </div>
+
+        <div class="card course-card">
+            <span class="course-badge">Nivel básico</span>
+
+            <h3>R Básico</h3>
+
+            <p>
+                Introducción al análisis estadístico y manejo
+                de datos utilizando el lenguaje R y el entorno RStudio.
+            </p>
+
+            <ul class="course-info">
+                <li><strong>Duración:</strong> 24 horas</li>
+                <li><strong>Nivel:</strong> Básico</li>
+                <li><strong>Modalidad:</strong> Presencial</li>
+                <li><strong>Enfoque:</strong> Estadística aplicada</li>
+            </ul>
+
+            <div class="course-actions">
+                <a href="pdf/r_basico_vf.pdf" class="btn-card" target="_blank">Ver programa</a>
+                <a href="#contacto" class="btn-card secondary">Solicitar información</a>
+            </div>
+        </div>
+
+        <div class="card course-card">
+            <span class="course-badge">Nivel básico</span>
+
+            <h3>Excel Profesional</h3>
+
+            <p>
+                Uso profesional de Excel para análisis,
+                organización de datos y automatización
+                de procesos técnicos y administrativos.
+            </p>
+
+            <ul class="course-info">
+                <li><strong>Duración:</strong> 24 horas</li>
+                <li><strong>Nivel:</strong> Básico</li>
+                <li><strong>Modalidad:</strong> Presencial</li>
+                <li><strong>Enfoque:</strong> Productividad y análisis</li>
+            </ul>
+
+            <div class="course-actions">
+                <a href="pdf/excel_basico_vf.pdf" class="btn-card" target="_blank">Ver programa</a>
+                <a href="#contacto" class="btn-card secondary">Solicitar información</a>
+            </div>
+        </div>
+
+        <div class="card course-card">
+            <span class="course-badge">Nivel intermedio</span>
+
+            <h3>Power BI</h3>
+
+            <p>
+                Desarrollo de dashboards interactivos,
+                visualización profesional de datos y
+                generación de reportes dinámicos.
+            </p>
+
+            <ul class="course-info">
+                <li><strong>Duración:</strong> 24 horas</li>
+                <li><strong>Nivel:</strong> Intermedio</li>
+                <li><strong>Modalidad:</strong> Presencial</li>
+                <li><strong>Enfoque:</strong> Business Intelligence</li>
+            </ul>
+
+            <div class="course-actions">
+                <a href="pdf/power_bi_vf.pdf" class="btn-card" target="_blank">Ver programa</a>
+                <a href="#contacto" class="btn-card secondary">Solicitar información</a>
+            </div>
+        </div>
+
+        <div class="card course-card">
+            <span class="course-badge">Nivel intermedio</span>
+
+            <h3>R Aplicado</h3>
+
+            <p>
+                Manipulación avanzada de datos, visualización
+                estadística y análisis aplicado utilizando
+                tidyverse y ggplot2.
+            </p>
+
+            <ul class="course-info">
+                <li><strong>Duración:</strong> 24 horas</li>
+                <li><strong>Nivel:</strong> Intermedio</li>
+                <li><strong>Modalidad:</strong> Presencial</li>
+                <li><strong>Enfoque:</strong> Estadística aplicada</li>
+            </ul>
+
+            <div class="course-actions">
+                <a href="pdf/r_aplicado_vf.pdf" class="btn-card" target="_blank">Ver programa</a>
+                <a href="#contacto" class="btn-card secondary">Solicitar información</a>
+            </div>
+        </div>
+
+        <div class="card course-card">
+            <span class="course-badge">Nivel intermedio</span>
+
+            <h3>Python Intermedio</h3>
+
+            <p>
+                Manipulación de datos, análisis exploratorio,
+                visualización científica y uso de bibliotecas
+                modernas para ciencia de datos.
+            </p>
+
+            <ul class="course-info">
+                <li><strong>Duración:</strong> 24 horas</li>
+                <li><strong>Nivel:</strong> Intermedio</li>
+                <li><strong>Modalidad:</strong> Presencial</li>
+                <li><strong>Enfoque:</strong> Ciencia de datos</li>
+            </ul>
+
+            <div class="course-actions">
+                <a href="pdf/python_intermedio_vf.pdf" class="btn-card" target="_blank">Ver programa</a>
+                <a href="#contacto" class="btn-card secondary">Solicitar información</a>
+            </div>
+        </div>
+
+        <div class="card course-card">
+            <span class="course-badge">Nivel avanzado</span>
+
+            <h3>Análisis de Datos con Python</h3>
+
+            <p>
+                Integración de datasets, limpieza de datos,
+                análisis estadístico y visualización aplicada
+                utilizando herramientas modernas del ecosistema Python.
+            </p>
+
+            <ul class="course-info">
+                <li><strong>Duración:</strong> 24 horas</li>
+                <li><strong>Nivel:</strong> Avanzado</li>
+                <li><strong>Modalidad:</strong> Presencial</li>
+                <li><strong>Enfoque:</strong> Analítica aplicada</li>
+            </ul>
+
+            <div class="course-actions">
+                <a href="pdf/python_avanzado_vf.pdf" class="btn-card" target="_blank">Ver programa</a>
+                <a href="#contacto" class="btn-card secondary">Solicitar información</a>
+            </div>
+        </div>
+
+        <div class="card course-card">
+            <span class="course-badge">Nivel avanzado</span>
+
+            <h3>Git y GitHub Avanzado</h3>
+
+            <p>
+                Flujo profesional de trabajo con Git y GitHub,
+                ramas, integración de cambios y resolución
+                colaborativa de conflictos en proyectos técnicos.
+            </p>
+
+            <ul class="course-info">
+                <li><strong>Duración:</strong> 12 horas</li>
+                <li><strong>Nivel:</strong> Avanzado</li>
+                <li><strong>Modalidad:</strong> Presencial</li>
+                <li><strong>Enfoque:</strong> Flujo profesional</li>
+            </ul>
+
+            <div class="course-actions">
+                <a href="pdf/git_github_avanzado_vf.pdf" class="btn-card" target="_blank">Ver programa</a>
+                <a href="#contacto" class="btn-card secondary">Solicitar información</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SEMBLANZAS -->
 <section id="semblanzas" class="section dark-section">
 
     <h2>Semblanzas Científicas</h2>
@@ -382,6 +405,50 @@
 
 </section>
 
+<!-- PUBLICACIONES -->
+<section id="publicaciones" class="section">
+
+    <h2>Publicaciones</h2>
+
+    <p class="section-text">
+        Materiales de divulgación científica y formación académica
+        desarrollados por el director de Analítica Aplicada MX.
+    </p>
+
+    <div class="cards">
+
+        <div class="card course-card">
+            <span class="course-badge">Libro publicado en Amazon</span>
+
+            <h3>Semblanzas de Gigantes Científicos</h3>
+
+            <p>
+                Un recorrido por la vida, ideas y contribuciones de
+                científicos y matemáticos que transformaron nuestra
+                comprensión del mundo moderno. Una obra de divulgación
+                científica pensada para estudiantes, docentes y personas
+                interesadas en la historia de la ciencia.
+            </p>
+
+            <div class="course-actions">
+                <a href="https://www.amazon.com.mx/Semblanzas-Gigantes-Cient%C3%ADficos-evoluci%C3%B3n-ciencia/dp/B0GHCWLHPC/"
+                   class="btn-card"
+                   target="_blank">
+                    Comprar en Amazon
+                </a>
+
+                <a href="#semblanzas"
+                   class="btn-card secondary">
+                    Ver semblanzas
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- INVESTIGACIÓN -->
 <section id="investigacion" class="section dark-section">
 
     <h2>Investigación Científica</h2>
@@ -394,16 +461,10 @@
 
     <div class="cards">
 
-        <!-- ARXIV -->
-
         <div class="card course-card">
-            <span class="course-badge">
-                arXiv · Procesos Estocásticos
-            </span>
+            <span class="course-badge">arXiv · Procesos Estocásticos</span>
 
-            <h3>
-                Procesos Regenerativos y de Renovación: Revisión
-            </h3>
+            <h3>Procesos Regenerativos y de Renovación: Revisión</h3>
 
             <p>
                 Introducción a procesos regenerativos y de renovación,
@@ -421,13 +482,9 @@
         </div>
 
         <div class="card course-card">
-            <span class="course-badge">
-                arXiv · Teoría de Colas
-            </span>
+            <span class="course-badge">arXiv · Teoría de Colas</span>
 
-            <h3>
-                Notas sobre Teoría de Colas y Algunas Aplicaciones
-            </h3>
+            <h3>Notas sobre Teoría de Colas y Algunas Aplicaciones</h3>
 
             <p>
                 Introducción a sistemas de espera, procesos de llegada
@@ -444,13 +501,9 @@
         </div>
 
         <div class="card course-card">
-            <span class="course-badge">
-                arXiv · Cadenas de Markov
-            </span>
+            <span class="course-badge">arXiv · Cadenas de Markov</span>
 
-            <h3>
-                A Markov Chain Model for COVID-19 in Mexico City
-            </h3>
+            <h3>A Markov Chain Model for COVID-19 in Mexico City</h3>
 
             <p>
                 Modelación epidemiológica mediante cadenas de Markov
@@ -466,16 +519,10 @@
             </div>
         </div>
 
-        <!-- ACADEMIA -->
-
         <div class="card course-card">
-            <span class="course-badge">
-                Academia.edu · Procesos de Markov
-            </span>
+            <span class="course-badge">Academia.edu · Procesos de Markov</span>
 
-            <h3>
-                Teoría General de Procesos de Markov
-            </h3>
+            <h3>Teoría General de Procesos de Markov</h3>
 
             <p>
                 Fundamentos probabilísticos y estructura matemática
@@ -492,13 +539,9 @@
         </div>
 
         <div class="card course-card">
-            <span class="course-badge">
-                Academia.edu · Ciencia de Datos
-            </span>
+            <span class="course-badge">Academia.edu · Ciencia de Datos</span>
 
-            <h3>
-                Notas sobre Regresión Logística
-            </h3>
+            <h3>Notas sobre Regresión Logística</h3>
 
             <p>
                 Fundamentos, implementación y aplicaciones de regresión logística
@@ -515,17 +558,13 @@
         </div>
 
         <div class="card course-card">
-            <span class="course-badge">
-                Academia.edu · Teoría de Colas
-            </span>
+            <span class="course-badge">Academia.edu · Teoría de Colas</span>
 
-            <h3>
-                Introducción a los Sistemas de Visitas
-            </h3>
+            <h3>Introducción a los Sistemas de Visitas</h3>
 
             <p>
-                Material introductorio sobre sistemas de visitas y aplicaciones
-                en procesos de servicio y teoría de colas.
+                Material introductorio sobre sistemas de visitas y
+                aplicaciones en procesos de servicio y teoría de colas.
             </p>
 
             <div class="course-actions">
@@ -540,7 +579,6 @@
     </div>
 
     <div class="course-actions research-links">
-
         <a href="https://orcid.org/0000-0003-3848-9369"
            class="btn-card secondary light"
            target="_blank">
@@ -552,157 +590,160 @@
            target="_blank">
             Ver perfil arXiv
         </a>
+    </div>
+
+</section>
+
+<!-- SEDES -->
+<section id="sedes" class="section">
+
+    <h2>Sedes</h2>
+
+    <p class="section-text">
+        Formación presencial en espacios pensados para aprendizaje,
+        networking y crecimiento profesional.
+    </p>
+
+    <div class="cards">
+
+        <div class="card course-card">
+            <span class="course-badge">Ciudad de México</span>
+
+            <h3>WRK</h3>
+
+            <p>
+                Sede presencial en CDMX para cursos, talleres y actividades
+                de formación en analítica aplicada, programación y reconversión profesional.
+            </p>
+
+            <ul class="course-info">
+                <li><strong>Ciudad:</strong> CDMX</li>
+                <li><strong>Sede:</strong> WRK</li>
+                <li><strong>Modalidad:</strong> Presencial</li>
+            </ul>
+
+            <div class="course-actions">
+                <a href="#contacto" class="btn-card">Solicitar información</a>
+            </div>
+        </div>
+
+        <div class="card course-card">
+            <span class="course-badge">Querétaro</span>
+
+            <h3>Próximamente</h3>
+
+            <p>
+                Estamos trabajando para ampliar nuestras opciones presenciales
+                y acercar la formación en análisis de datos y tecnología aplicada
+                a más personas.
+            </p>
+
+            <ul class="course-info">
+                <li><strong>Ciudad:</strong> Querétaro</li>
+                <li><strong>Sede:</strong> Próximamente</li>
+                <li><strong>Modalidad:</strong> Presencial</li>
+            </ul>
+
+            <div class="course-actions">
+                <a href="#contacto" class="btn-card secondary">Mantenerme informado</a>
+            </div>
+        </div>
 
     </div>
 
 </section>
 
+<!-- SOBRE MÍ -->
+<section id="sobre-mi" class="section">
+
+    <h2>Sobre mí</h2>
+
+    <p class="section-text">
+        Analítica Aplicada MX es un proyecto educativo orientado a la
+        reconversión profesional mediante herramientas prácticas de análisis
+        de datos, programación, visualización, automatización y tecnología aplicada.
+    </p>
+
+    <div class="semblance-card">
+
+        <div class="semblance-content">
+            <span class="course-badge">Dirección académica</span>
+
+            <h3>Carlos Ernesto Martínez Rodríguez</h3>
+
+            <p>
+                Soy el creador de Analítica Aplicada MX, un espacio de formación
+                pensado para personas que desean actualizar sus habilidades,
+                construir un perfil técnico más competitivo y acercarse al mundo
+                del análisis de datos desde una ruta clara, práctica y profesional.
+            </p>
+
+            <p>
+                Mi trabajo integra docencia, análisis computacional, programación,
+                estadística aplicada y desarrollo de materiales formativos. El objetivo
+                del proyecto es que cada estudiante aprenda herramientas reales,
+                construya evidencia de aprendizaje y avance hacia una reconversión
+                laboral con mayor confianza.
+            </p>
+
+            <div class="course-actions">
+                <a href="pdf/semblanza_carlos_martinez.pdf" class="btn-card" target="_blank">
+                    Leer semblanza completa
+                </a>
+
+                <a href="#contacto" class="btn-card secondary">
+                    Solicitar información
+                </a>
+            </div>
+        </div>
+
+        <div class="semblance-visual">
+            <span>CM</span>
+            <p>Docencia · Datos · Tecnología aplicada</p>
+        </div>
+
+    </div>
+
 </section>
-    <section id="sedes" class="section">
 
-        <h2>Sedes</h2>
+<!-- CONTACTO -->
+<section id="contacto" class="section">
 
-        <p class="section-text">
-            Formación presencial en espacios pensados para aprendizaje,
-            networking y crecimiento profesional.
-        </p>
+    <h2>Contacto</h2>
 
-        <div class="cards">
+    <p>
+        Síguenos en redes sociales y solicita información
+        sobre cursos y talleres.
+    </p>
 
-            <div class="card course-card">
-                <span class="course-badge">Ciudad de México</span>
+    <div class="social-links">
 
-                <h3>WRK</h3>
+        <a href="https://www.tiktok.com/@analitica.aplicada.mx" target="_blank">
+            <img src="assets/logos/tiktok.png" alt="TikTok">
+        </a>
 
-                <p>
-                    Sede presencial en CDMX para cursos, talleres y actividades
-                    de formación en analítica aplicada, programación y reconversión profesional.
-                </p>
+        <a href="https://www.instagram.com/analitica.aplicada.cdmx/" target="_blank">
+            <img src="assets/logos/instagram.png" alt="Instagram">
+        </a>
 
-                <ul class="course-info">
-                    <li><strong>Ciudad:</strong> CDMX</li>
-                    <li><strong>Sede:</strong> WRK</li>
-                    <li><strong>Modalidad:</strong> Presencial</li>
-                </ul>
+        <a href="https://www.facebook.com/AnaliticaAplicadaMX/" target="_blank">
+            <img src="assets/logos/facebook.png" alt="Facebook">
+        </a>
 
-                <div class="course-actions">
-                    <a href="#contacto" class="btn-card">Solicitar información</a>
-                </div>
-            </div>
+        <a href="https://www.youtube.com/@AnaliticaAplicadaMX" target="_blank">
+            <img src="assets/logos/youtube.png" alt="YouTube">
+        </a>
 
-            <div class="card course-card">
-                <span class="course-badge">Querétaro</span>
+        <a href="mailto:analitica.aplicada.cdmx@gmail.com">
+            <img src="assets/logos/mail.png" alt="Correo">
+        </a>
 
-                <h3>Próximamente</h3>
+    </div>
 
-                <p>
-                    Estamos trabajando para ampliar nuestras opciones presenciales
-                    y acercar la formación en análisis de datos y tecnología aplicada
-                    a más personas.
-                </p>
+</section>
 
-                <ul class="course-info">
-                    <li><strong>Ciudad:</strong> Querétaro</li>
-                    <li><strong>Sede:</strong> Próximamente</li>
-                    <li><strong>Modalidad:</strong> Presencial</li>
-                </ul>
+<script src="script.js"></script>
 
-                <div class="course-actions">
-                    <a href="#contacto" class="btn-card secondary">Mantenerme informado</a>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-    <section id="sobre-mi" class="section">
-
-        <h2>Sobre mí</h2>
-
-        <p class="section-text">
-            Analítica Aplicada MX es un proyecto educativo orientado a la
-            reconversión profesional mediante herramientas prácticas de análisis
-            de datos, programación, visualización, automatización y tecnología aplicada.
-        </p>
-
-        <div class="semblance-card">
-
-            <div class="semblance-content">
-                <span class="course-badge">Dirección académica</span>
-
-                <h3>Carlos Ernesto Martínez Rodríguez</h3>
-
-                <p>
-                    Soy el creador de Analítica Aplicada MX, un espacio de formación
-                    pensado para personas que desean actualizar sus habilidades,
-                    construir un perfil técnico más competitivo y acercarse al mundo
-                    del análisis de datos desde una ruta clara, práctica y profesional.
-                </p>
-
-                <p>
-                    Mi trabajo integra docencia, análisis computacional, programación,
-                    estadística aplicada y desarrollo de materiales formativos. El objetivo
-                    del proyecto es que cada estudiante aprenda herramientas reales,
-                    construya evidencia de aprendizaje y avance hacia una reconversión
-                    laboral con mayor confianza.
-                </p>
-
-                <div class="course-actions">
-                    <a href="pdf/semblanza_carlos_martinez.pdf" class="btn-card" target="_blank">
-                        Leer semblanza completa
-                    </a>
-
-                    <a href="#contacto" class="btn-card secondary">
-                        Solicitar información
-                    </a>
-                </div>
-            </div>
-
-            <div class="semblance-visual">
-                <span>CM</span>
-                <p>Docencia · Datos · Tecnología aplicada</p>
-            </div>
-
-        </div>
-
-    </section>
-    
-    <section id="contacto" class="section">
-
-        <h2>Contacto</h2>
-
-        <p>
-            Síguenos en redes sociales y solicita información
-            sobre cursos y talleres.
-        </p>
-
-        <div class="social-links">
-
-            <a href="https://www.tiktok.com/@analitica.aplicada.mx" target="_blank">
-                <img src="assets/logos/tiktok.png" alt="TikTok">
-            </a>
-
-            <a href="https://www.instagram.com/analitica.aplicada.cdmx/" target="_blank">
-                <img src="assets/logos/instagram.png" alt="Instagram">
-            </a>
-
-            <a href="https://www.facebook.com/AnaliticaAplicadaMX/" target="_blank">
-                <img src="assets/logos/facebook.png" alt="Facebook">
-            </a>
-
-            <a href="https://www.youtube.com/@AnaliticaAplicadaMX" target="_blank">
-                <img src="assets/logos/youtube.png" alt="YouTube">
-            </a>
-
-            <a href="mailto:analitica.aplicada.cdmx@gmail.com">
-                <img src="assets/logos/mail.png" alt="Correo">
-            </a>
-
-        </div>
-
-    </section>
-
-    <script src="script.js"></script>
 <script>
 const btnTop = document.getElementById("btnTop");
 
@@ -720,7 +761,6 @@ btnTop.addEventListener("click", () => {
         behavior:"smooth"
     });
 });
-
 </script>
 
 </body>
