@@ -399,3 +399,11 @@ body {
     max-width:800px;
     margin:0 auto 2rem auto;
 }
+/* ===== INVESTIGACIÓN ===== */
+
+.research-links{
+    margin-top:2rem;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:1rem;
+}
