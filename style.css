@@ -409,3 +409,12 @@ body {
     flex-wrap:wrap;
     gap:1rem;
 }
+.btn-card.secondary.light {
+    border: 1px solid rgba(255,255,255,.75);
+    color: white;
+    background: transparent;
+}
+
+.btn-card.secondary.light:hover {
+    background: rgba(255,255,255,.12);
+}
