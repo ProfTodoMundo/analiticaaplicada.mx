@@ -236,61 +236,42 @@ body {
     border: 1px solid #0f2a44;
     color: #0f2a44;
 }
-/* ===== SEMBLANZAS ===== */
+/* ===== CORRECCIÓN FINAL SEMBLANZAS ===== */
 
-#semblanzas .cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-    gap:2rem;
-    margin-top:3rem;
-    align-items:start;
+#semblanzas .cards {
+    align-items: stretch !important;
 }
 
-#semblanzas .course-card{
-    min-height:unset !important;
-    height:fit-content !important;
-    padding:1.6rem;
-    border-radius:26px;
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-start;
-    gap:1rem;
-    align-self:start;
+#semblanzas .course-card {
+    min-height: 280px !important;
+    height: auto !important;
+    max-height: none !important;
+    padding: 1.8rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
 }
 
-#semblanzas .course-card h3{
-    font-size:1.55rem;
-    margin-top:.5rem;
-    margin-bottom:.5rem;
+#semblanzas .course-card h3 {
+    margin: 0 0 1rem 0 !important;
 }
 
-#semblanzas .course-card p{
-    font-size:.95rem;
-    line-height:1.6;
-    margin-bottom:.5rem;
+#semblanzas .course-card p {
+    margin: 0 0 1rem 0 !important;
 }
 
-#semblanzas .course-actions{
-    margin-top:0;
-    display:flex;
-    flex-wrap:wrap;
-    gap:.7rem;
+#semblanzas .course-actions {
+    margin-top: auto !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: .8rem !important;
+    align-items: center !important;
 }
 
-#semblanzas .course-badge{
-    margin-bottom:.5rem;
-    font-size:.8rem;
-}
-
-#semblanzas .btn-card{
-    padding:.75rem 1.15rem;
-    font-size:.88rem;
-}
-
-@media(max-width:800px){
-    #semblanzas .cards{
-        grid-template-columns:1fr;
-    }
+#semblanzas .btn-card.secondary {
+    border: 2px solid #006bff !important;
+    color: #006bff !important;
+    background: transparent !important;
 }
 
 /* ===== BOTÓN VOLVER ARRIBA ===== */
@@ -418,3 +399,9 @@ body {
 .btn-card.secondary.light:hover {
     background: rgba(255,255,255,.12);
 }
+
+<a href="URL_DEL_REEL"
+   class="btn-card secondary"
+   target="_blank">
+    Ver reel
+</a>
